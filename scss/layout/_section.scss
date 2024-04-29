@@ -1,24 +1,23 @@
 section{
-   // display: flex;
-    background-color: aqua;
+
     font-size: 2rem;
     justify-content: space-between;
 
     .container{
         
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
             
-        .letrero1{
-        background-color: black;
-        color: beige;
-        padding: 10px;
-        margin: 20px;
+            .letrero1{
+            background-color: black;
+            color: beige;
+            padding: 10px;
+            margin: 20px;
     
-          }
-        .letrero2{
+             }
+            .letrero2{
             @extend .letrero1;
-        }
+             }
     }
 }
